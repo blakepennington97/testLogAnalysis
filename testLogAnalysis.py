@@ -571,11 +571,11 @@ def testSetEfficiency(filePath):
 failuresToCSV(txtFilePath)
 passesToCSV(txtFilePath)
 AllToCsv(txtFilePath)
-#CSVtoWorkOrderPlot(failuresFilePath)
+CSVtoWorkOrderPlot(failuresFilePath)
 CSVtoTestSetPlot(failuresFilePath)
-#testStepsToPlot(txtFilePath)
-#testStepRetries(txtFilePath)
-#testSetPassesToTestTime(passesFilePath)
+testStepsToPlot(txtFilePath)
+testStepRetries(txtFilePath)
+testSetPassesToTestTime(passesFilePath)
 testSetEfficiency(txtFilePath)
 
 print
